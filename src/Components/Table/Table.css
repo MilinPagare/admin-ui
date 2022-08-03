@@ -1,0 +1,9 @@
+.tr-active {
+  background-color: rgb(202, 199, 199) !important;
+}
+
+.edit-delete-btn {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
