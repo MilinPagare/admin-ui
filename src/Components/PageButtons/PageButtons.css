@@ -1,0 +1,66 @@
+.del-page-btn {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.del-btn {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 8px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  height: 50%;
+}
+
+.active {
+  border: 1px solid rgb(7, 170, 211);
+  color: rgb(7, 170, 211);
+  background-color: white;
+  padding: 10px 15px;
+  margin: 8px 10px;
+  border-radius: 50%;
+}
+
+.notactive {
+  border: none;
+  background-color: rgb(7, 170, 211);
+  color: white;
+  padding: 10px 15px;
+  margin: 8px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.disable {
+  border: 1px solid rgb(145, 145, 145);
+  color: black;
+  padding: 10px 15px;
+  margin: 8px 10px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .del-page-btn {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-btn {
+    margin: auto;
+    width: 100%;
+  }
+}
